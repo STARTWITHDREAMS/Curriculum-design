@@ -1,4 +1,6 @@
-# TPHiNet: Deep Image Hiding by Invertible Network
+# TPhiNet: Deep Image Hiding by Invertible Network
+
+
 
 ## Dependencies and Installation
 - Python 3 (Recommend to use [Anaconda](https://www.anaconda.com/download/#linux)).
@@ -36,7 +38,7 @@
 set `MODEL_PATH = '/home/usrname/Hinet/model/'` and file name `suffix = 'model.pt'`.
 
 
-## Training Demo 
+## Training Demo
 - Here we provide a training demo to show how to train a converged model in the early training stage. During this process, the model may suffer from explosion. Our solution is to stop the training process at a normal node and abate the learning rate. Then, continue to train the model.
 
 - Note that in order to log the training process, we have imported `logging` package, with slightly modified `train_logging.py` and `util.py` files.
