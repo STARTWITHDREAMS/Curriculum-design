@@ -1,4 +1,4 @@
-#TPHiNet: Deep Image Hiding by Invertible Network
+# TPHiNet: Deep Image Hiding by Invertible Network
 
 ## Dependencies and Installation
 - Python 3 (Recommend to use [Anaconda](https://www.anaconda.com/download/#linux)).
